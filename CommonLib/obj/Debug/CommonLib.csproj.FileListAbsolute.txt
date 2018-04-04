@@ -1,5 +1,5 @@
 F:\Study\GitHub\CodeFragment\CommonLib\bin\Debug\CommonLib.dll
 F:\Study\GitHub\CodeFragment\CommonLib\bin\Debug\CommonLib.pdb
-F:\Study\GitHub\CodeFragment\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
 F:\Study\GitHub\CodeFragment\CommonLib\obj\Debug\CommonLib.dll
 F:\Study\GitHub\CodeFragment\CommonLib\obj\Debug\CommonLib.pdb
+F:\Study\GitHub\CodeFragment\CommonLib\obj\Debug\CommonLib.csproj.CoreCompileInputs.cache
