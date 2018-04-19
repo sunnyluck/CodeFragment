@@ -1,6 +1,6 @@
 F:\Study\GitHub\CodeFragment\CodeFragment\ItemCore\bin\Debug\ItemCore.dll
 F:\Study\GitHub\CodeFragment\CodeFragment\ItemCore\bin\Debug\ItemCore.pdb
 F:\Study\GitHub\CodeFragment\CodeFragment\ItemCore\obj\Debug\ItemCore.csprojResolveAssemblyReference.cache
+F:\Study\GitHub\CodeFragment\CodeFragment\ItemCore\obj\Debug\ItemCore.csproj.CoreCompileInputs.cache
 F:\Study\GitHub\CodeFragment\CodeFragment\ItemCore\obj\Debug\ItemCore.dll
 F:\Study\GitHub\CodeFragment\CodeFragment\ItemCore\obj\Debug\ItemCore.pdb
-F:\Study\GitHub\CodeFragment\CodeFragment\ItemCore\obj\Debug\ItemCore.csproj.CoreCompileInputs.cache

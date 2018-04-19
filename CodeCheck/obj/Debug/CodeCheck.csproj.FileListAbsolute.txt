@@ -6,7 +6,7 @@ F:\Study\GitHub\CodeFragment\CodeCheck\bin\Debug\ItemCore.dll
 F:\Study\GitHub\CodeFragment\CodeCheck\bin\Debug\ItemCore.pdb
 F:\Study\GitHub\CodeFragment\CodeCheck\bin\Debug\CommonLib.pdb
 F:\Study\GitHub\CodeFragment\CodeCheck\obj\Debug\CodeCheck.csprojResolveAssemblyReference.cache
-F:\Study\GitHub\CodeFragment\CodeCheck\obj\Debug\CodeCheck.exe
-F:\Study\GitHub\CodeFragment\CodeCheck\obj\Debug\CodeCheck.pdb
 F:\Study\GitHub\CodeFragment\CodeCheck\obj\Debug\CodeCheck.csproj.CoreCompileInputs.cache
 F:\Study\GitHub\CodeFragment\CodeCheck\obj\Debug\CodeCheck.csproj.CopyComplete
+F:\Study\GitHub\CodeFragment\CodeCheck\obj\Debug\CodeCheck.exe
+F:\Study\GitHub\CodeFragment\CodeCheck\obj\Debug\CodeCheck.pdb

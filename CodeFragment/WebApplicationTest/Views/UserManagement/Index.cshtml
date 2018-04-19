@@ -1,0 +1,32 @@
+﻿@model WebApplicationTest.ViewModels.UserListViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserManagement</title>
+</head>
+<body>
+    <form id="hiddenForm" method="post" style="display:none"></form>
+    <input type="submit" name="addNew" value="addNew" onclick="var form = document.getElementById('hiddenForm'); form.action = '/UserManagement/AddNew'; form.submit();" /><br />
+    <div>
+        <table border="1">
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+            </tr>
+            @foreach (var item in Model.UserList)
+            {
+                <tr>
+                    <td>@item.FirstName</td>
+                    <td style="background-color:@item.Color">@item.LastName</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

@@ -1,11 +1,16 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
+
+    <!--每个虚拟路径下面的物理文件是在MVC网址启动的时候就调用了Global.asax
+        文件下的Application_Start()方法中的BundleConfig.RegisterBundles(BundleTable.Bundles)方法，这样就将每个虚拟路径映射好了具体的物理文件-->
+    <!--Styles.Render(""虚拟路径"") :输出此虚拟路径下包含的物理css文件-->
     @Styles.Render("~/Content/css")
+    <!--Scripts.Render(""虚拟路径"") :输出此虚拟路径下包含的物理js文件-->
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -29,6 +34,8 @@
         </div>
     </div>
     <div class="container body-content">
+        <!--这个RenderBody()就是占位符，将来会被使用了模板页的子页面的内容给替换掉-->
+        <!--这个RenderBody()占位符，只能在布局也中出现一次-->
         @RenderBody()
         <hr />
         <footer>
@@ -38,6 +45,9 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <!--RenderSection()也是一个占位符，它是一个带有标识的占位符。将来会被使用了此模板页的子页面带有指定标识的内容来替换-->
+    <!--它可以有多个。-->
+    <!--required: false表示在使用模板页中的子页面中不重写这个节点，如果是true则必须重写-->
     @RenderSection("scripts", required: false)
 </body>
 </html>
